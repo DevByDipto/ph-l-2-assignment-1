@@ -21,7 +21,7 @@ type PersonKeys = keyof Person;
 
 ```
 ## 2. Provide an example of using union and intersection types in TypeScript.
-# 1. Union Type
+### 1. Union Type
 
 ### Example:
 
@@ -33,7 +33,7 @@ let userId: ID;
 userId = 101;       
 userId = "U-2025";  
 ```
-# 2. Intersection Type
+### 2. Intersection Type
 ```ts
  type Person = {
   name: string;
