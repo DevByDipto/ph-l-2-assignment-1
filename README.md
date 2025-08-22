@@ -34,6 +34,7 @@ userId = 101;
 userId = "U-2025";  
 ```
 ### 2. Intersection Type
+### Example:
 ```ts
  type Person = {
   name: string;
