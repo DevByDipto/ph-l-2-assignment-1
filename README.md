@@ -20,11 +20,6 @@ type PersonKeys = keyof Person;
 // Now PersonKeys becomes: "name" | "age" | "isStudent"
 
 ```
-# TypeScript Union and Intersection Types
-
-This README contains examples of using **Union Types** and **Intersection Types** in TypeScript.
-
----
 ## 2. Provide an example of using union and intersection types in TypeScript.
 # 1. Union Type
 
