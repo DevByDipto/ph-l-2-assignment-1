@@ -19,7 +19,7 @@ type PersonKeys = keyof Person;
 
 // Now PersonKeys becomes: "name" | "age" | "isStudent"
 
-
+```
 # TypeScript Union and Intersection Types
 
 This README contains examples of using **Union Types** and **Intersection Types** in TypeScript.
@@ -37,8 +37,9 @@ let userId: ID;
 
 userId = 101;       
 userId = "U-2025";  
-
+```
 # 2. Intersection Type
+```ts
  type Person = {
   name: string;
   age: number;
@@ -58,3 +59,4 @@ const emp: EmployeeProfile = {
   employeeId: 101,
   department: "Web Development"
 };
+```
